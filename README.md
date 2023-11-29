@@ -13,7 +13,7 @@ After downloading open the main folder which contains backend folder, frontend f
 ##### -> node index.js or nodemon
 
 
-### Functionalities 
+## Functionalities 
 ##### 1. Add new Task
 ##### 2. Read the task
 ##### 3. Edit the task
@@ -21,3 +21,7 @@ After downloading open the main folder which contains backend folder, frontend f
 ##### 5. Mark task as completed
 ##### 6. Ranking of tasks According to priority
 ##### 7. Pagination
+##### 8. Also added the functionality to crop the text in the homepage so that the table doesn't distorted
+
+## Modal
+Used only single model to store the tasks having the fields id, title, description, priority, completed. In whole project all the operations are done on this model directly. As the data base is directly created in the backend folder hence, their is no need to use useContext because all the data is saved directly to the database and directly fetchs from it
