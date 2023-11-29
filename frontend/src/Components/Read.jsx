@@ -16,6 +16,7 @@ const Read = () => {
                 console.log(err)
             })
     }, [])
+    const navigate = useNavigate()
     const handleDelete = async (taskId) => {
         const confirmed = window.confirm('Do you really want to Delete this task? You will not be able to recover it again.');
         if (confirmed) {
@@ -24,7 +25,7 @@ const Read = () => {
                 const response = await axios.delete(`http://localhost:5001/api/tasks/${taskId}`);
                 console.log(response.data);
 
-                window.location.reload(true)
+                navigate('/')
 
             } catch (error) {
                 console.error('Error updating task completion status:', error);
