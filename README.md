@@ -14,10 +14,10 @@ After downloading open the main folder which contains backend folder, frontend f
 
 
 ### Functionalities 
-1 -> Add new Task
-2 -> Read the task
-3 -> Edit the task
-4 -> Delete the task
-5 -> Mark task as completed
-6 -> Ranking of tasks According to priority
-7 -> Pagination
+##### 1 -> Add new Task
+##### 2 -> Read the task
+##### 3 -> Edit the task
+##### 4 -> Delete the task
+##### 5 -> Mark task as completed
+##### 6 -> Ranking of tasks According to priority
+##### 7 -> Pagination
