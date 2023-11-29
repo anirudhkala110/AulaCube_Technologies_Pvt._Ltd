@@ -4,8 +4,10 @@
 After downloading open the main folder which contains backend folder, frontend folder and other images in VS Code and then open terminal and split the terminal in two parts and then run the command to change the directories
 
 ### cd frontend
-##### npm install
-##### npm start
+##### -> npm install
+##### -> npm start
+
+
 ### cd backend
-##### npm install
-##### node index.js or nodemon
+##### -> npm install
+##### -> node index.js or nodemon
